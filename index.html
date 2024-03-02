@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/idea.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>G2EMO DIESEL TRACKER</title>
+  </head>
+  <body>
+    <div style="display: none" id="ongoingclass" class="attendance-card">
+      <img src="./images/idea.png" alt="" width="50" height="50" />
+      <div class="course-details">
+        <h2>DIESEL TRACKER</h2>
+        <h4>
+          Start <br />
+          🕔
+        </h4>
+
+        <p>Time : <span id="starttime">2</span>:00 PM</p>
+        <p>Fuel : <span id="startfuel">40</span> LTR</p>
+        <h4>
+          Stop <br />
+          🚫
+        </h4>
+        <p>Time : <span id="stoptime">9</span>:00 PM</p>
+        <p>Fuel : <span id="stopfuel">20</span> LTR</p>
+      </div>
+      <div class="status">
+        <span id="messagedisplay" class="status-text">Summary</span>
+        <div>
+          After <span id="usedtime">7 </span> hours of running Generator engine
+          456A, there is <span id="usedliters">6 </span> liters of diesel left,
+          with consumption rate of <span id="rate"> 1.17 </span> liters per
+          hour.
+        </div>
+      </div>
+      <br />
+      <div class="attendance">
+        <button id="okBTN">OK</button>
+      </div>
+    </div>
+
+    <div id="loader" class="attendance-card">
+      <img
+        src="./images/work-in-progress.gif"
+        alt=""
+        width="100%"
+        height="100%"
+      />
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

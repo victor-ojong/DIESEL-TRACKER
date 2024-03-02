@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.attendance-card {
+  background-color: #fafffe; /* Teal color for ongoing class */
+  color: #908f8f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: background-color 0.3s ease;
+}
+.course-details {
+  margin-bottom: 20px;
+}
+
+.course-details h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.course-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.status {
+  font-size: 18px;
+}
+
+.status-text {
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #3db39e;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.attendance button {
+  background-color: #4caf50; /* Green color for the button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
